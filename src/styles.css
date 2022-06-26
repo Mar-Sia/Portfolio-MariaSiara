@@ -1,0 +1,77 @@
+:root {
+  --background-color: #fae3e3;
+  --main-color: #3d0240;
+  --main-color-faded: #3d024015;
+  --main-font: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h1,
+h2 {
+  color: var(--main-color);
+  font-family: var(--main-font);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+button:hover {
+  background-color: var(--main-color-faded);
+  transition: background-color 0.3ms ease-in-out;
+}
+
+button {
+  background-color: var(--background-color);
+  border-color: var(--main-color);
+  border-radius: 16px;
+  padding: 10px;
+  font-family: var(--main-font);
+  margin-top: 40px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+.header-container {
+  margin: 120px 30px;
+}
+
+.name-homepage {
+  font-weight: 900;
+}
+
+.nav-bar {
+  padding: 5px 0;
+}
+
+.nav-container {
+  margin: 5px 20px;
+}
+
+.nav-bar-links {
+  color: var(--main-color);
+}
